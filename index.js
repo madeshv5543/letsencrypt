@@ -8,7 +8,7 @@ httpProxy.createServer({
                   },
                ws:true,
          ssl: {
-                     key: fs.readFileSync('/etc/letsencrypt/live/handshake.in/privkey.pem', 'utf8'),
-                     cert: fs.readFileSync('/etc/letsencrypt/live/handshake.in/fullchain.pem', 'utf8')
+                     key: fs.readFileSync('/etc/letsencrypt/live/hashstack.in/privkey.pem', 'utf8'),
+                     cert: fs.readFileSync('/etc/letsencrypt/live/hashstack.in/fullchain.pem', 'utf8')
                }
 }).listen(443);
