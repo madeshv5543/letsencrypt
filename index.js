@@ -4,7 +4,7 @@ var fs = require('fs');
 httpProxy.createServer({
          target: {
                       host: '127.0.0.1',
-                      port: 6612
+                      port: 6611
                   },
                ws:true,
          ssl: {
